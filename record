@@ -1,0 +1,1 @@
+ffmpeg -f x11grab -s [width]x[height] -i :0.0 -c:v libx264 -crf 0 -preset ultrafast [output_file.mp4
